@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+.navbar-brand span{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+.navbar-toggler:hover{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.navbar {
+    background: white;
+}
+.navbar-nav .nav-link {
+    color: black !important;
+    padding: 5px;
+}
+.nav-item {
+    font-size: medium;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.pic1, .pic2{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic1{
+    background-image:  linear-gradient(to top , rgba(0, 0, 0, 0.664) , rgba(0, 0, 0, 0.418)), url(assets/banner7.jpg);
+}
+.pic2{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.511) , rgba(0, 0, 0, 0.721)), url(assets/3pic.jpg);
+
+}
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.hero-text h1{
+    color: white;
+   font-size: 30px;
+   font-weight: bolder;
+}
+.hero-text p{
+    color: rgba(255, 255, 255, 0.53);
+}
+.hero-text span{
+    font-size: larger;
+}
+.container h3{
+    color: black;
+    margin: none;
+}
+.container p{
+    color:black
+}
+.card {
+    max-width: 100%;
+    border-radius: 0px;
+    margin-bottom: 25px;
+}
+.card img{
+    height: 50vh;
+    padding: 15px;
+}
+.card h5{
+    color: red;
+}
+.card p{
+    font-size: small;
+}
+.btn-primary {
+    background-color: black;
+    border: none;
+    transition: transform 0.3s;
+}
+.btn-primary:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+
+#reviews h1{
+ text-align: center;
+}
+.footer {
+    background: black;
+    color: white;
+    padding: 20px ;
+    text-align: center;
+}

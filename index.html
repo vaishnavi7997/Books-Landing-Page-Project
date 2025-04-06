@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Landing Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>   
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/banner.jpg" alt="Logo"><span class="text-danger"><span class="text-dark">VIVLIO</span>Store</span> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                          Reading Genres
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="fiction.html">Fiction </a></li>
+                          <li><a class="dropdown-item" href="non-fiction.html">Non-Fiction</a></li>
+                          <li><a class="dropdown-item" href="bestsellers.html">Children's Books</a></li>
+                          <li><a class="dropdown-item" href="fiction.html">Religious & Spiritual</a></li>
+                          <li><a class="dropdown-item" href="self-help.html">Business & Finance</a></li>
+                          <li><a class="dropdown-item" href="bestsellers.html">Health & Wellness</a></li>
+                          <li><a class="dropdown-item" href="bestsellers.html">Romance</a></li>
+                          <li><a class="dropdown-item" href="non-fiction.html">Horror & Mystery</a></li>
+                          <li><a class="dropdown-item" href="self-help.html">Comics & Graphic Novels</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#trending">Book Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bestsellers.html">Popular Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews"> Public Reviews</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Image Slideshow -->
+    <section class="hero m-0">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="pic1"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="pic2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-text">
+            <h1>Discover Your Next <span class="text-danger">Favorite Book</span> </h1>
+            <p>Explore trending books, and new releases</p>
+        </div>
+    </section>
+
+     <!-- Find Your Perfect Book Section -->
+     <section class="container text-center mt-2">
+        <h3>Not sure what to read next?</h3>
+        <p>Let us help you find the perfect book based on your interests.</p>
+        <div class="d-flex justify-content-center gap-4">
+            <a href="fiction.html" class="btn btn-outline-primary">Fiction</a>
+            <a href="non-fiction.html" class="btn btn-outline-secondary">Non-Fiction</a>
+            <a href="self-help.html" class="btn btn-outline-success">Self-Help</a>
+            <a href="bestsellers.html" class="btn btn-outline-warning">Bestsellers</a>
+            <a href="fiction.html" class="btn btn-outline-info">Others</a>
+        </div>
+        <a href="bestsellers.html" class="btn btn-primary mt-4 p-2">Get Recommendations</a>
+    </section>
+
+    <!-- Featured Books Section -->
+    <div class="container mt-5">
+        <h2 class="text-center text-danger mb-4" id="trending">Trending Books</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/3.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Atomic Habits</h5>
+                        <p class="card-text">A powerful book on building good habits by James Clear.</p>
+                        <p><strong>Price:</strong> ₹499</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/4.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">The Alchemist</h5>
+                        <p class="card-text">A magical story about self-discovery by Paulo Coelho.</p>
+                        <p><strong>Price:</strong> ₹399</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/5.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Rich Dad Poor Dad</h5>
+                        <p class="card-text">A personal finance classic by Robert Kiyosaki.</p>
+                        <p><strong>Price:</strong> ₹299</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/6.avif" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Rebecca Yarros</h5>
+                        <p class="card-text">The third installment in the Empyrean series, this fantasy adventure continues the saga of dragon riders battling for survival.</p>
+                        <p><strong>Price:</strong>₹599</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/7.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">The Let Them Theory</h5>
+                        <p class="card-text">A transformative self-help book that explores the power of acceptance and letting go, offering practical advice for personal growth.</p>
+                        <p><strong>Price:</strong> ₹499</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/1img.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Allegra Goodman</h5>
+                        <p class="card-text">A historical novel about an orphaned French noblewoman in the 16th century, abandoned on an island in the New World, exploring themes of resilience and survival.</p>
+                        <p><strong>Price:</strong> ₹650</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/2img.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Ali Hazelwood</h5>
+                        <p class="card-text">A steamy college romance between a competitive diver and an ace swimmer, delving into themes of ambition and forbidden love.</p>
+                        <p><strong>Price:</strong> ₹550</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/3img.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Alice Feeney</h5>
+                        <p class="card-text">A gripping thriller about marriage and revenge, following an author whose wife mysteriously disappears, leading to dark revelations.</p>
+                        <p><strong>Price:</strong> ₹620</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/5img.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Jojo Moyes</h5>
+                        <p class="card-text">A contemporary story of a woman navigating life's complexities as her estranged father reappears after 35 years, challenging her perceptions of family.</p>
+                        <p><strong>Price:</strong> ₹700</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/6img.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Kristen Ciccarelli</h5>
+                        <p class="card-text">The epic conclusion to the Crimson Moth duology, this fantasy novel follows a witch on the run and a witch hunter forced into an uneasy alliance.</p>
+                        <p><strong>Price:</strong> ₹580</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/7img.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Anita Desai</h5>
+                        <p class="card-text">A story about an Urdu professor's obsession with a declining poet, delving into themes of language, culture, and personal aspirations.</p>
+                        <p><strong>Price:</strong> ₹350</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/9img.avif" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Rohinton Mistry</h5>
+                        <p class="card-text">Set during India's Emergency period, this novel weaves together the lives of four individuals, highlighting the country's socio-political landscape.</p>
+                        <p><strong>Price:</strong> ₹499</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/10img.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Ocean Vuong</h5>
+                        <p class="card-text">A story of an unlikely friendship between a 19-year-old man and an elderly widow, delving into themes of connection and the human experience.</p>
+                        <p><strong>Price:</strong> ₹720</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/pic1.webp" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiona Davis</h5>
+                        <p class="card-text">An addictive novel transporting readers from New York City's glamorous parties to the labyrinthine streets of Cairo, centered around a missing artifact.</p>
+                        <p><strong>Price:</strong> ₹720</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="assets/pic2.jpg" class="card-img-top" alt="Book Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Karen Russell</h5>
+                        <p class="card-text">Set during the Great Depression in Nebraska, this novel follows a 'prairie witch' and explores themes of memory preservation and supernatural phenomena.</p>
+                        <p><strong>Price:</strong> ₹650</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class=" container mt-5" id="reviews">
+        <h1 class="text-success">Reviews</h1>
+        <div class="carousel" >
+            <div class=" carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h5>⭐⭐⭐⭐⭐ </h5>
+                              <p>This book changed my life! Highly recommended.</p>
+                             <p class="text-danger">--- Alex Johnson</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>⭐⭐⭐⭐</h5>
+                                <p>A great read, but a bit slow in the middle.</p>
+                             <p class="text-danger">--- The Book Thief</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>⭐⭐⭐⭐⭐</h5>
+                                 <p>A great read, but a bit slow in the middle.</p>
+                             <p class="text-danger">--- Emma Watson</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>⭐⭐⭐⭐</h5>
+                                 <p> Great for history buffs, Perfect for self-improvement</p>
+                            <p class="text-danger">--- The Night Circus</p>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>⭐⭐⭐⭐</h5>
+                            <p>inspirational, challenging</p>
+                            <p class="text-danger">--- Rohinton Mistry</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+     <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Your VIVLIOStore. All Rights Reserved.</p>
+    </footer> 
+    
+</body>
+</html>
