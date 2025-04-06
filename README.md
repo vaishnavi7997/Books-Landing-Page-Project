@@ -25,4 +25,3 @@ A modern and responsive landing page for a book promotion website. Built using H
 - **HTML5** – Structure of the webpage  
 - **CSS3** – Styling and layout  
 
--
